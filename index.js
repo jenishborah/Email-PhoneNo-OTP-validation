@@ -11,8 +11,8 @@ function sendEmailVerification() {
   
     email.send({
       Host: "smtp.elasticemail.com",
-      Username: "jenishborah@gmail.com", 
-      Password: "33B7EA29EA03177AC947ACBB8E6B265FACEA",
+      Username: "Your UserName", 
+      Password: "Your Password",
       To: email,
       From: "jenishborah@gmail.com", 
       Subject: "Email Verification OTP",
